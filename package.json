@@ -1,0 +1,26 @@
+{
+  "name": "web_crawler",
+  "version": "1.0.0",
+  "description": "Simple Web Crawler",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/batmikun/web_crawler.git"
+  },
+  "author": "Nicolas Stirnemann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/batmikun/web_crawler/issues"
+  },
+  "homepage": "https://github.com/batmikun/web_crawler#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "jsdom": "^24.0.0"
+  }
+}
